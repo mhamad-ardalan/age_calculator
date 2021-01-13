@@ -1,21 +1,16 @@
 ﻿using System;
 
-namespace c_
+namespace age_calculator
 {
     class Program
     {
         static void Main(string[] args)
         {
-       Console.WriteLine("\nWhat is your born Year ? ");
-var input = Console.ReadLine();
-var born = Int32.Parse(input);
-var dateAndTime = DateTime.Now;
-var date = dateAndTime.Year;
-var age =  date - born;
-
-Console.WriteLine($"\nyou are  {age}  year old");
-Console.Write("\nPress any key to exit...");
-Console.ReadKey(true);
+       Console.WriteLine(" type your age ? ");
+int born_year = Console.ReadLine();
+int this_year = 2021;
+int you_age =  this_year - born_year;
+Console.WriteLine($" your born year {you_age} ");
         }
     }
 }
